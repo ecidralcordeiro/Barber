@@ -40,7 +40,7 @@ class _NavState extends State<Nav> {
           BottomNavigationBarItem(
               icon: Icon(Icons.home),
               label: 'Home',
-              backgroundColor: Colors.orange),
+              backgroundColor: Colors.blue),
           BottomNavigationBarItem(
               icon: Icon(Icons.search),
               label: 'Search',
