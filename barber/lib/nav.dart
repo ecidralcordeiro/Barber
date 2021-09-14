@@ -30,7 +30,8 @@ class _NavState extends State<Nav> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Corte do Macaco Peludo'),
+        centerTitle: true,
+        title: Text('!Barber'),
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
